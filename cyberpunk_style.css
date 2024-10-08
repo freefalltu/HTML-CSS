@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.header_container {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_social_media {
+    margin-right: 45px;
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header_logo {
+    margin-left: 75px;
+}
+
+.social_item {
+    padding-right: 40px;
+}
+
+.cyberpunk_img_container {
+    height: 1000px;
+    overflow: hidden;
+    background-image: url(/pictures/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: changing 10s infinite;
+    animation-timing-function: step-start;
+}
+
+@keyframes changing {
+    0% {
+        background-image: url(/pictures/1.jpg);
+
+    }
+
+    34% {
+        background-image: url(/pictures/2.jpg);
+
+    }
+
+    68% {
+        background-image: url(/pictures/3.jpg);
+    }
+}
+
+.main {
+    display: block;
+}
+
+.cyberpunk_banner {
+    width: 624px;
+    height: 367px;
+    position: relative;
+    padding: 70px;
+    background-color: rgb(248, 242, 0);
+    clip-path: polygon(10% 0px, 100% 0px, 100% 83%, 90% 100%, 0px 100%, 0px 17%);
+
+}
+
+.cyberpunk_container {
+    margin: 0 auto;
+    padding: 0 70px;
+    max-width: 1400px;
+    height: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.banner_title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-family: 'Archangelsk';
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63px;
+}
+
+.banner_click {
+    font-size: 24px;
+    padding: 25px 50px;
+    background-color: black;
+    color: rgb(248, 242, 0);
+    font-weight: 700px;
+    border: none;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Archangelsk';
+    src: url(Archangelsk.woff2);
+}
