@@ -40,7 +40,7 @@ body {
 .cyberpunk__img-container {
     height: 1000px;
     overflow: hidden;
-    background-image: url(/HTML-CSS/pictures/1.jpg);
+    background-image: url(pictures/1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -50,17 +50,17 @@ body {
 
 @keyframes changing {
     0% {
-        background-image: url(/HTML-CSS/pictures/1.jpg);
+        background-image: url(pictures/1.jpg);
 
     }
 
     34% {
-        background-image: url(/HTML-CSS/pictures/2.jpg);
+        background-image: url(pictures/2.jpg);
 
     }
 
     68% {
-        background-image: url(/HTML-CSS/pictures/3.jpg);
+        background-image: url(pictures/3.jpg);
     }
 }
 
