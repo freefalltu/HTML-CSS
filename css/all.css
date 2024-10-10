@@ -9,4 +9,9 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+
+}
+ 
+footer, header, h2, section {
+	display: block;
 }
