@@ -1,7 +1,7 @@
 .cyberpunk__img-container {
     height: 1000px;
     overflow: hidden;
-    background-image: url('/pictures/main/1.jpg');
+    background-image: url('../../pictures/main/1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,17 +11,17 @@
 
 @keyframes changing {
     0% {
-        background-image: url('/pictures/main/1.jpg');
+        background-image: url('../../pictures/main/1.jpg');
 
     }
 
     34% {
-        background-image: url('/pictures/main/2.jpg');
+        background-image: url('../../pictures/main/2.jpg');
 
     }
 
     68% {
-        background-image: url('/pictures/main/3.jpg');
+        background-image: url('../../pictures/main/3.jpg');
     }
 }
 
